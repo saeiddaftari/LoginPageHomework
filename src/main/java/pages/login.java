@@ -6,8 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-
-
 public class login {
 
 	WebDriver driver;
@@ -44,11 +42,8 @@ public class login {
 	// set email address in email textbox
 
 	public void setEmail(String emailAddress) {
-		int x = cookiePopup.getLocation().x;
-		int y = cookiePopup.getLocation().y;
-		System.out.println(x);
-		System.out.println(y);
-		//cookiePopup.click();
+
+		cookiePopup.click();
 
 		email.sendKeys(emailAddress);
 		System.out.println("email address is: ");
