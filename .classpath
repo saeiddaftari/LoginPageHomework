@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/cucumber/cucumber-core-6.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/cucumber/cucumber-java-6.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/cucumber/cucumber-junit-6.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/cucumber/cucumber-jvm-deps-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/cucumber/junit-4.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/cucumber/mockito-all-1.10.19.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/cucumber/gherkin-15.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/cucumber/cobertura-2.1.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
